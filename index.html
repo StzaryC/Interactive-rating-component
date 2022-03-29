@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center;
+      color: #fff;
+     }
+    .attribution a { 
+      color: #F97614 }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  <div class="modal_card_rate">
+    <figure class="star_icon">
+      <img src="images/icon-star.svg" alt="" >
+    </figure>
+    <h1>
+      How did we do?
+    </h1>
+    <p>
+      Please let us know how we did with your support <br>
+      request. All feedback is appreciated to help us <br>
+      improve our offering!
+    </p>
+    <div class="rating">
+      <span class="grade">1</span>
+      <span class="grade">2</span>
+      <span class="grade">3</span>
+      <span class="grade">4</span>
+      <span class="grade">5</span>
+    </div>
+    <button class="send">submit</button>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <div class="modal_thanks">
+    <figure class="star_icon">
+      <img src="images/illustration-thank-you.svg" alt="" >
+    </figure>
+    <p class="selected">
+      You selected <span class="spanrate"></span> out of 5
+    </p>
+    <h1>
+      Thank you!
+    </h1>
+    <p>
+      We appreciate you taking the time to give a <br>
+      rating. if you ever need more support, don't <br>
+      hesitate to get in touch!
+    </p>
+  </div>
+
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/StzaryC/Interactive-rating-component.git">Gustavo Park</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
